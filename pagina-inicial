@@ -30,9 +30,12 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Sobre nós</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre nós</a>
+              </li>
               </ul>
             </div>
           </nav>
@@ -49,7 +52,6 @@
                 <div class="card-body">
                   <p class="card-text"><h1> Chegou a nova maneira de estudar como você nunca viu antes</h1>
                                        <h4> O StoreNotes é o app que vai mudar o jeito como você vê as aulas. Crie uma conta e comece já! :) </h4>
-                                       <a href='#' class="btn btn-dark borda3">Entrar no StoreNotes</a>
                 </div>
               </div>
 
