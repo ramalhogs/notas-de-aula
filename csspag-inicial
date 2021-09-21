@@ -1,0 +1,42 @@
+body,
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+#header .navbar-collapse{
+    width: auto;
+}
+
+#imgfundo{
+    background-color: rgb(243, 243, 243);
+    background-image: url("https://jrs.digital/wp-content/uploads/2019/07/writing-828911_960_720.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header .nav-link:hover{
+    border-bottom: solid 4px rgb(243, 243, 243);
+}
+
+header .nav-link{
+    border-bottom: solid 4px transparent;
+}
+
+.borda1{
+    margin-top: 50px;
+}
+
+.borda2{
+    margin-top: 110px;
+}
+
+.borda3{
+    margin-top:30px;
+}
+
+.infocard {
+    position: absolute;
+    box-shadow: 1px 5px 20px rgb(9, 77, 82);
+}
