@@ -16,6 +16,16 @@ html{
 
 }
 
+
+.teto{
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 0 30px 0 rgba(209, 0, 0);
+    z-index: 9999;
+
+}
+
+
 header .nav-link:hover{
     border-bottom: solid 4px rgb(243, 243, 243);
 }
@@ -24,19 +34,8 @@ header .nav-link{
     border-bottom: solid 4px transparent;
 }
 
-.borda1{
-    margin-top: 50px;
-}
-
-.borda2{
-    margin-top: 110px;
-}
-
-.borda3{
-    margin-top:30px;
-}
-
 .infocard {
     position: absolute;
     box-shadow: 1px 5px 20px rgb(9, 77, 82);
 }
+
