@@ -67,7 +67,7 @@
                 <p class="card-text ">Os links das suas aulas estarão à fácil acesso, assim como os conteúdos já salvados por você</p>
 
                 <h5 class="card-title pt-2">Compartilhamento de conteúdos</h5>
-                <img align="left" lass="rounded-circle " src="https://media.istockphoto.com/vectors/share-concept-tiny-people-sharing-data-links-photos-posts-and-news-in-vector-id1214054892" width="75" height="75" alt="Logo">
+                <img align="left" class="rounded-circle " src="https://media.istockphoto.com/vectors/share-concept-tiny-people-sharing-data-links-photos-posts-and-news-in-vector-id1214054892" width="75" height="75" alt="Logo">
                 <p class="card-text">Você pode compartilhar conteúdos de matérias diretamente por nossa plataforma sem utilizar outros meios!</p>
               </div>
             </div>
@@ -133,12 +133,11 @@
                 Entrar em contato
               </button>
             </p>
-          </section>
         </div>
 
         <div class="text-center  p-3" style="background-color: rgba(0, 0, 0, 0.3);">
           <a class="text-white" href="#">©️ 2021 StoreNotes</a>
-          <p> Version 21.0.1 All rights reserved </a>
+          <p> Version 21.0.1 All rights reserved </p>
         </div>
       </footer>
     
