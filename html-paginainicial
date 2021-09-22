@@ -61,21 +61,21 @@
               <div class="card-body">
                 <h5 class="card-title">Matemática nas suas anotações</h5>
                 <img align="left" class="rounded-circle" src="https://lasalle.edu.br/public/uploads/images/saojoao/79eec64063ab9c8bd8492880b2d763fc.png" width="75" height="75" alt="Logo">
-                <p class="card-text">O StoreNotes te possibilita anotar o conteúdo da aula e ainda te concede ferramentas matemáticas</p>
+                <p class="card-text">O StoreNotes te possibilita anotar o conteúdo da aula e ainda te concede ferramentas matemáticas!</p>
                 <h5 class="card-title pt-2">Acesso aos seus trabalhos e links</h5>
                 <img align="left"  class="rounded-circle " src="https://media.istockphoto.com/vectors/boy-taking-online-lessons-tablet-vector-id1221133382" width="75" height="75" alt="Logo">
-                <p class="card-text ">Os links das suas aulas estarão à fácil acesso, assim como os conteúdos já salvados por você</p>
+                <p class="card-text ">Os links das suas aulas estarão à fácil acesso, assim como os conteúdos já salvados por você!</p>
 
                 <h5 class="card-title pt-2">Compartilhamento de conteúdos</h5>
                 <img align="left" class="rounded-circle " src="https://media.istockphoto.com/vectors/share-concept-tiny-people-sharing-data-links-photos-posts-and-news-in-vector-id1214054892" width="75" height="75" alt="Logo">
-                <p class="card-text">Você pode compartilhar conteúdos de matérias diretamente por nossa plataforma sem utilizar outros meios!</p>
+                <p class="card-text">Você pode compartilhar conteúdos de matérias diretamente por nossa plataforma!</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="carousel slide" data-ride="carousel">
+      <div class="carousel slide container pt-5" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg" alt="Primeiro Slide">
