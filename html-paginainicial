@@ -85,7 +85,7 @@
 
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="https://img.elo7.com.br/product/original/2A1B178/fundo-fotografico-em-tecido-lampadas-horizontal-2-20x1-50m-cenario-3d.jpg" class="d-block w-100" alt="Teste">
+              <img src="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg" class="d-block w-100" alt="Teste">
               <div class="carousel-caption d-none d-md-block">
                 <h2> alo alo? </h2>
                 <p> enoisssssss texto </p>
@@ -112,6 +112,16 @@
               </div>
             </div>
           </div>
+            <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+
+        
 
 
         </div>
