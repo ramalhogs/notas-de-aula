@@ -28,13 +28,8 @@ header .nav-link{
 
 
  /* Texto principal */
- .centralizar{
-     text-align: center;
- }
 
- .tamanho{
-     font-size:80px;
- }
+
 
  /* Configurações dos cards */
 
@@ -50,21 +45,21 @@ header .nav-link{
     padding: 0;
 }
 
-#mainSlider .carousel-caption {
+#carouselExampleIndicators .carousel-caption {
     top: 25%;
 }
 
-#mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height:80vh;
+#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
+    height: 80vh;
 }
 
 
-#mainSlider .carousel-caption h2{
+#carouselExampleIndicators .carousel-caption h2{
     margin-bottom:25px;
     font-size: 60px;
 }
 
-#mainSlider .carousel-caption p{
+#carouselExampleIndicators .carousel-caption p{
     font-weight: 300;
     margin-bottom:80px;
     font-size: 25px;
@@ -97,5 +92,5 @@ header .nav-link{
  /* Margem */
 
  .margem1{
-     margin-top: 85px;
+    margin-top: 150px;
  }
