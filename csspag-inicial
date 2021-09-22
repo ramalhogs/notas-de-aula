@@ -9,16 +9,12 @@ html{
 
 #imgfundo{
     background-color: rgb(243, 243, 243);
-    background-image: url("https://jrs.digital/wp-content/uploads/2019/07/writing-828911_960_720.jpg");
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20201101/pngtree-plant-shadow-with-green-wallpaper-svg-image_450856.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-
-
-
-
 
 
 
@@ -31,7 +27,6 @@ header .nav-link{
 }
 
 .infocard {
-    position:absolute;
     box-shadow: 1px 5px 20px rgb(9, 77, 82);
 }
 
