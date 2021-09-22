@@ -26,6 +26,16 @@ header .nav-link{
     border-bottom: solid 4px transparent;
 }
 
+
+ /* Texto principal */
+ .centralizar{
+     text-align: center;
+ }
+
+ .tamanho{
+     font-size:80px;
+ }
+
  /* Configurações dos cards */
 
 .infocard {
@@ -87,5 +97,5 @@ header .nav-link{
  /* Margem */
 
  .margem1{
-     margin-top: 65px;
+     margin-top: 85px;
  }
