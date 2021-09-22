@@ -76,10 +76,25 @@
       </div>
 
 
+
     </main>
 
-    
-  
+      <footer class="text-center text-white bg-dark mt-5">
+        <div class="container-fluid p-3 pb-0" style="background-color: rgba(0, 0, 0, 0.1);">
+            <p class=" align-items-center">
+              <span class="me-3">Tem alguma dúvida ou sugestão?</span></p>
+              <p><button type="button" class="btn btn-outline-light">
+                Entrar em contato
+              </button>
+            </p>
+          </section>
+        </div>
+
+        <div class="text-center  p-3" style="background-color: rgba(0, 0, 0, 0.3);">
+          <a class="text-white" href="#">© 2021 StoreNotes</a>
+          <p> Version 21.0.1 All rights reserved </a>
+        </div>
+      </footer>
 
 
   </body>
