@@ -16,7 +16,7 @@ html{
 
 }
 
-
+ /* Cabeçalho */
 
 header .nav-link:hover{
     border-bottom: solid 4px rgb(243, 243, 243);
@@ -26,7 +26,60 @@ header .nav-link{
     border-bottom: solid 4px transparent;
 }
 
+ /* Configurações dos cards */
+
 .infocard {
     box-shadow: 1px 5px 20px rgb(9, 77, 82);
 }
 
+
+
+ /* Parte do slide */
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-caption {
+    top: 25%;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height:80vh;
+}
+
+
+#mainSlider .carousel-caption h2{
+    margin-bottom:25px;
+    font-size: 60px;
+}
+
+#mainSlider .carousel-caption p{
+    font-weight: 300;
+    margin-bottom:80px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.carousel-indicators .active {
+    background-color: rgb(255, 115, 0);
+}
+
+.main-btn {
+    background-color: rgb(255, 115, 0);
+    color: rgb(243, 243, 243);
+    text-transform: uppercase;
+    width: 200px;
+    height: 20px;
+    padding: 15px 25px;
+    border-radius:40px;
+    border: 4px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color:rgb(243, 243, 243);
+    background-color: transparent;
+    border-color: rgb(182, 88, 0);
+}
