@@ -1,13 +1,13 @@
-Repositório destinado ao trabalho de Linguagens de Programação.
+# Repositório destinado ao trabalho de Linguagens de Programação.
 
-Integrantes:
+## Integrantes:
 
 - Breno Marques Azevedo
 - Cleomar Felipe Rabelo Antoszczyszyn
 - Gabriel Pastori
 - Gustavo Ramalho
 
-Requisitos do Trabalho:
+## Requisitos do Trabalho:
 
 - Deve conter 6 páginas referentes ao produto/serviço escolhido.
 
