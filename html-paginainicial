@@ -54,38 +54,6 @@
         </div>
       </div>
 
-
-
-      <div class="container margem1">
-        <div class="row">
-          <div class="col-md-6 pt-5 ">
-            <div class="card infocard">
-              <img class="card-img-top" src="https://comps.canstockphoto.com.br/homem-carta-escrevendo-imagem_csp75712279.jpg" alt="Imagem de capa do card">
-              <div class="card-body">
-                <p class="card-text"><h1> Chegou a nova maneira de estudar como você nunca viu antes</h1>
-                                     <h4> O StoreNotes é o app que vai mudar o jeito como você vê as aulas. Crie uma conta e comece já! :) </h4>
-              </div>
-            </div>
-
-          </div>
-          <div class="offset-2 col-md-4 pt-5">
-            <div class="card infocard">
-              <div class="card-body">
-                <h5 class="card-title">Matemática nas suas anotações</h5>
-                <img align="left" class="rounded-circle" src="https://lasalle.edu.br/public/uploads/images/saojoao/79eec64063ab9c8bd8492880b2d763fc.png" width="75" height="75" alt="Logo">
-                <p class="card-text">O StoreNotes te possibilita anotar o conteúdo da aula e ainda te concede ferramentas matemáticas!</p>
-                <h5 class="card-title pt-2">Acesso aos seus trabalhos e links</h5>
-                <img align="left"  class="rounded-circle " src="https://media.istockphoto.com/vectors/boy-taking-online-lessons-tablet-vector-id1221133382" width="75" height="75" alt="Logo">
-                <p class="card-text ">Os links das suas aulas estarão à fácil acesso, assim como os conteúdos já salvados por você!</p>
-                <h5 class="card-title pt-2">Compartilhamento de conteúdos</h5>
-                <img align="left" class="rounded-circle " src="https://media.istockphoto.com/vectors/share-concept-tiny-people-sharing-data-links-photos-posts-and-news-in-vector-id1214054892" width="75" height="75" alt="Logo">
-                <p class="card-text">Você pode compartilhar conteúdos de matérias diretamente por nossa plataforma!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div class="container-fluid pt-5 margem1"> 
         <div id="mainSlider" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -135,6 +103,39 @@
         
 
 
+        </div>
+      </div>
+
+
+
+
+      <div class="container margem1">
+        <div class="row">
+          <div class="col-md-6 pt-5 ">
+            <div class="card infocard">
+              <img class="card-img-top" src="https://comps.canstockphoto.com.br/homem-carta-escrevendo-imagem_csp75712279.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text"><h1> A mais nova maneira de estudar como você nunca viu antes</h1>
+                                     <h4> O StoreNotes é o app que vai mudar o jeito como você vê as aulas. Crie uma conta e comece já! :) </h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="offset-2 col-md-4 pt-5">
+            <div class="card infocard">
+              <div class="card-body">
+                <h5 class="card-title">Matemática nas suas anotações</h5>
+                <img align="left" class="rounded-circle" src="https://lasalle.edu.br/public/uploads/images/saojoao/79eec64063ab9c8bd8492880b2d763fc.png" width="75" height="75" alt="Logo">
+                <p class="card-text">O StoreNotes te possibilita anotar o conteúdo da aula e ainda te concede ferramentas matemáticas!</p>
+                <h5 class="card-title pt-2">Acesso aos seus trabalhos e links</h5>
+                <img align="left"  class="rounded-circle " src="https://media.istockphoto.com/vectors/boy-taking-online-lessons-tablet-vector-id1221133382" width="75" height="75" alt="Logo">
+                <p class="card-text ">Os links das suas aulas estarão à fácil acesso, assim como os conteúdos já salvados por você!</p>
+                <h5 class="card-title pt-2">Compartilhamento de conteúdos</h5>
+                <img align="left" class="rounded-circle " src="https://media.istockphoto.com/vectors/share-concept-tiny-people-sharing-data-links-photos-posts-and-news-in-vector-id1214054892" width="75" height="75" alt="Logo">
+                <p class="card-text">Você pode compartilhar conteúdos de matérias diretamente por nossa plataforma!</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
