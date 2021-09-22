@@ -28,7 +28,9 @@
           <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link " href="#">Home <span class="sr-only">(Página atual)</span></a>
+            
+
+    <a class="nav-link " href="#">Home <span class="sr-only">(Página atual)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="#">Login</a>
@@ -41,8 +43,6 @@
         </nav>
       </div>
     </header>
-
-
     <main>
       <div class="container">
         <div class="row">
@@ -75,47 +75,70 @@
         </div>
       </div>
 
-      <div class="carousel slide container pt-5" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg" alt="Primeiro Slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://img.elo7.com.br/product/original/2A1B178/fundo-fotografico-em-tecido-lampadas-horizontal-2-20x1-50m-cenario-3d.jpg" alt="Segundo Slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://www.2net.com.br//Repositorio/251/Publicacoes/23883/3c2fd25f-c.jpg" alt="Terceiro Slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
-      </div>
+      <div class="container-fluid pt-5">
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#mainSlider" data-slide-to="1"></li>
+            <li data-target="#mainSlider" data-slide-to="2"></li>
+          </ol>
 
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://img.elo7.com.br/product/original/2A1B178/fundo-fotografico-em-tecido-lampadas-horizontal-2-20x1-50m-cenario-3d.jpg" class="d-block w-100" alt="Teste">
+              <div class="carousel-caption d-none d-md-block">
+                <h2> alo alo? </h2>
+                <p> enoisssssss texto </p>
+                <a href="#" class="main-btn"> TESTE</a>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/236x/a0/be/54/a0be5481a63ae02da28ae1a9232bf119.jpg" class="d-block w-100" alt="Teste">
+              <div class="carousel-caption d-none d-md-block">
+                <h2> alo sadalo? </h2>
+                <p> enoisssssss texqqqqqqqqqqqqqqto </p>
+                <a href="#" class="main-btn"> TESTE321</a>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://img.elo7.com.br/product/original/2A1B178/fundo-fotografico-em-tecido-lampadas-horizontal-2-20x1-50m-cenario-3d.jpg" class="d-block w-100" alt="Teste">
+              <div class="carousel-caption d-none d-md-block">
+                <h2> alo lalaalo? </h2>
+                <p> enoisssssss texaaaaaaaaaaaaaaato </p>
+                <a href="#" class="main-btn"> TESTEsete</a>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
 
 
     </main>
 
-    <footer class="text-center text-white bg-dark mt-5">
-      <div class="container-fluid p-3 pb-0" style="background-color: rgba(0, 0, 0, 0.1);">
+      <footer class="text-center text-white bg-dark mt-5">
+       <div class="container-fluid p-3 pb-0" style="background-color: rgba(0, 0, 0, 0.1);">
           <p class=" align-items-center">
           <span class="me-3">Tem alguma dúvida ou sugestão?</span></p>
           <p><button type="button" class="btn btn-outline-light">
             Entrar em contato
           </button>
           </p>
-      </div>
+       </div>
 
-        <div class="text-center  p-3" style="background-color: rgba(0, 0, 0, 0.3);">
+       <div class="text-center  p-3" style="background-color: rgba(0, 0, 0, 0.3);">
           <a class="text-white" href="#">©️ 2021 StoreNotes</a>
           <p> Version 21.0.1 All rights reserved </p>
         </div>
-      </footer>
+     </footer>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
   </body>
 </html>
