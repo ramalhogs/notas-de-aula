@@ -17,13 +17,9 @@ html{
 }
 
 
-.teto{
-    position: fixed;
-    background: #fff;
-    box-shadow: 0 0 30px 0 rgba(209, 0, 0);
-    z-index: 9999;
 
-}
+
+
 
 
 header .nav-link:hover{
@@ -35,7 +31,7 @@ header .nav-link{
 }
 
 .infocard {
-    position: absolute;
+    position:absolute;
     box-shadow: 1px 5px 20px rgb(9, 77, 82);
 }
 
