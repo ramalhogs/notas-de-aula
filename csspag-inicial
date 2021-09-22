@@ -1,3 +1,5 @@
+
+ /* Alterando a fonte */
 body,
 html{
     font-family: 'Roboto', sans-serif;
@@ -34,28 +36,24 @@ header .nav-link{
  /* Configurações dos cards */
 
 .infocard {
-    box-shadow: 1px 5px 20px rgb(9, 77, 82);
+    box-shadow: 1px 5px 20px rgb(9, 77, 82); 
 }
 
 
 
  /* Parte do slide */
 
-.container-fluid {
-    padding: 0;
-}
-
 #carouselExampleIndicators .carousel-caption {
     top: 25%;
 }
 
-#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
-    height: 80vh;
+#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item { 
+    height: 80vh; /* Tamanho da altura do slide */
 }
 
 
 #carouselExampleIndicators .carousel-caption h2{
-    margin-bottom:25px;
+    margin-bottom:25px; /* margem e fonte h2 no slide*/
     font-size: 60px;
 }
 
@@ -63,15 +61,15 @@ header .nav-link{
     font-weight: 300;
     margin-bottom:80px;
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255); /* Configurações de p no slide*/
 }
 
 .carousel-indicators .active {
-    background-color: rgb(255, 115, 0);
+    background-color: rgb(255, 115, 0); /* Cor das barras da parte debaixo do slide */
 }
 
 .main-btn {
-    background-color: rgb(255, 115, 0);
+    background-color: rgb(255, 115, 0); /* Configurações do botão sem estar com mouse flutuando sobre */
     color: rgb(243, 243, 243);
     text-transform: uppercase;
     width: 200px;
@@ -83,7 +81,7 @@ header .nav-link{
 }
 
 .main-btn:hover {
-    text-decoration: none;
+    text-decoration: none;  /* configurações com mouse flutuando sobre o botão */
     color:rgb(243, 243, 243);
     background-color: transparent;
     border-color: rgb(59, 48, 37);
