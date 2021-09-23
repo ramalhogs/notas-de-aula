@@ -1,93 +1,39 @@
-@charset "UTF-8";
+@import './comandos';
+
 /* Alterando a fonte */
 body,
-html {
-  font-family: 'Roboto', sans-serif;
+html{
+    font-family: 'Roboto', sans-serif;
 }
 
-#header .navbar-collapse {
-  width: auto;
+#header .navbar-collapse{
+    width: auto;
 }
 
-#imgfundo {
-  background-color: #f3f3f3;
-  background-image: url("http://willerk.vteximg.com.br/arquivos/ids/188440/Papel-de-Parede-Disney-Fundo-do-mar-DI0957.jpg?v=637257672634830000");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+#imgfundo{
+    background-color: $azulclaro;
+    background-image: url("http://willerk.vteximg.com.br/arquivos/ids/188440/Papel-de-Parede-Disney-Fundo-do-mar-DI0957.jpg?v=637257672634830000");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Cabeçalho */
-header .nav-link:hover {
-  border-bottom: solid 4px #f3f3f3;
-}
 
-header .nav-link {
-  border-bottom: solid 4px transparent;
-}
+@import './cabecalho';
 
 /* Configurações dos cards */
+
 .infocard {
-  -webkit-box-shadow: 1px 5px 20px #094d52;
-          box-shadow: 1px 5px 20px #094d52;
-}
-
-/* Parte do slide */
-#carouselExampleIndicators .carousel-caption {
-  top: 25%;
-}
-
-  /* Tamanho da altura do slide */
-#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
-  height: 80vh;
-}
-
-  /* margem e fonte h2 no slide*/
-#carouselExampleIndicators .carousel-caption h2 {
-  margin-bottom: 25px;
-  font-size: 60px;
+    box-shadow: 1px 5px 20px $escuro; 
 }
 
 
-  /* Configurações de p no slide*/
-#carouselExampleIndicators .carousel-caption p {
-  font-weight: 300;
-  margin-bottom: 80px;
-  font-size: 25px;
-  color: white;
-}
+@import './slides';
+ 
 
+ /* Margem */
 
-  /* Cor das barras da parte debaixo do slide */
-.carousel-indicators .active {
-  background-color: #ff7300;
-}
-
-
-  /* Cnfigurações do botão sem estar com mouse flutuando sobre */
-.main-btn {
-  background-color: #ff7300;
-  color: #f3f3f3;
-  text-transform: uppercase;
-  width: 200px;
-  height: 20px;
-  padding: 15px 25px;
-  border-radius: 40px;
-  border: 4px solid transparent;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-  /* configurações com mouse flutuando sobre o botão */
-.main-btn:hover {
-  text-decoration: none;
-  color: #f3f3f3;
-  background-color: transparent;
-  border-color: #3b3025;
-}
-
-/* Margem */
-.margem1 {
-  margin-top: 150px;
-}
-/*# sourceMappingURL=styles.css.map */
+ .margem1{
+    margin-top: 150px;
+ }
