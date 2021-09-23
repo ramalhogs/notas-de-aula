@@ -1,5 +1,4 @@
-
- /* Alterando a fonte */
+/* Alterando a fonte */
 body,
 html{
     font-family: 'Roboto', sans-serif;
@@ -11,7 +10,7 @@ html{
 
 #imgfundo{
     background-color: rgb(243, 243, 243);
-    background-image: url("https://cdn.tapetender70er.de/media/image/6d/2f/3a/385002-1_warp-beauty-02_1348x693.jpg");
+    background-image: url("http://willerk.vteximg.com.br/arquivos/ids/188440/Papel-de-Parede-Disney-Fundo-do-mar-DI0957.jpg?v=637257672634830000");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,25 +50,29 @@ header .nav-link{
     height: 80vh; /* Tamanho da altura do slide */
 }
 
-
+/* margem e fonte h2 no slide*/
 #carouselExampleIndicators .carousel-caption h2{
-    margin-bottom:25px; /* margem e fonte h2 no slide*/
+    margin-bottom:25px; 
     font-size: 60px;
 }
 
+/* Configurações de p no slide*/
 #carouselExampleIndicators .carousel-caption p{
     font-weight: 300;
     margin-bottom:80px;
     font-size: 25px;
-    color: rgb(255, 255, 255); /* Configurações de p no slide*/
+    color: rgb(255, 255, 255); 
 }
 
+/* Cor das barras da parte debaixo do slide */
 .carousel-indicators .active {
-    background-color: rgb(255, 115, 0); /* Cor das barras da parte debaixo do slide */
+    background-color: rgb(255, 115, 0); 
 }
 
+
+/* Cnfigurações do botão sem estar com mouse flutuando sobre */
 .main-btn {
-    background-color: rgb(255, 115, 0); /* Configurações do botão sem estar com mouse flutuando sobre */
+    background-color: rgb(255, 115, 0); 
     color: rgb(243, 243, 243);
     text-transform: uppercase;
     width: 200px;
@@ -80,8 +83,9 @@ header .nav-link{
     transition: .5s;
 }
 
+ /* configurações com mouse flutuando sobre o botão */
 .main-btn:hover {
-    text-decoration: none;  /* configurações com mouse flutuando sobre o botão */
+    text-decoration: none; 
     color:rgb(243, 243, 243);
     background-color: transparent;
     border-color: rgb(59, 48, 37);
