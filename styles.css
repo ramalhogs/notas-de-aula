@@ -61,14 +61,14 @@ header .nav-link{
 
 /* Cor das barras da parte debaixo do slide */
 .carousel-indicators .active {
-    background-color: rgb(255, 115, 0); 
+    background-color: rgba(244, 162, 97); 
 }
 
 
 /* Cnfigurações do botão sem estar com mouse flutuando sobre */
 .main-btn {
-    background-color: rgb(255, 115, 0); 
-    color: rgb(243, 243, 243);
+    background-color: rgba(231, 111, 81); 
+    color: rgb(38, 70, 83);
     text-transform: uppercase;
     width: 200px;
     height: 20px;
@@ -81,9 +81,9 @@ header .nav-link{
  /* configurações com mouse flutuando sobre o botão */
  .main-btn:hover {
     text-decoration: none; 
-    color:rgb(243, 243, 243);
+    color:rgb(38, 70, 83);
     background-color: transparent;
-    border-color: rgb(59, 48, 37);
+    border-color: rgb(244, 162, 97);
  }
 
  /* Margem */
