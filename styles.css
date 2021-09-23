@@ -9,7 +9,7 @@ html{
 }
 
 #imgfundo{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(244, 162, 97);
     background-image: url("http://willerk.vteximg.com.br/arquivos/ids/188440/Papel-de-Parede-Disney-Fundo-do-mar-DI0957.jpg?v=637257672634830000");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ header .nav-link{
 /* Configurações dos cards */
 
 .infocard {
-    box-shadow: 1px 5px 20px rgb(9, 77, 82); 
+    box-shadow: 1px 5px 20px rgb(29, 53, 87); 
 }
 
 
@@ -67,8 +67,8 @@ header .nav-link{
 
 /* Cnfigurações do botão sem estar com mouse flutuando sobre */
 .main-btn {
-    background-color: rgba(231, 111, 81); 
-    color: rgb(38, 70, 83);
+    background-color: rgba(168, 218, 220); 
+    color: rgb(29, 53, 87);
     text-transform: uppercase;
     width: 200px;
     height: 20px;
@@ -81,9 +81,9 @@ header .nav-link{
  /* configurações com mouse flutuando sobre o botão */
  .main-btn:hover {
     text-decoration: none; 
-    color:rgb(38, 70, 83);
+    color:rgb(29, 53, 87);
     background-color: transparent;
-    border-color: rgb(244, 162, 97);
+    border-color: rgb(29, 53, 87);
  }
 
  /* Margem */
