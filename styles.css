@@ -46,19 +46,6 @@ header .nav-link {
   background-color: #a8dadc;
 }
 
-/* margem e fonte h2 no slide*/
-#carouselExampleIndicators .carousel-caption h2 {
-  margin-bottom: 25px;
-  font-size: 60px;
-}
-
-/* Configurações de p no slide*/
-#carouselExampleIndicators .carousel-caption p {
-  font-weight: 300;
-  margin-bottom: 80px;
-  font-size: 25px;
-}
-
 /* Configurações do botão sem estar com mouse flutuando sobre */
 .main-btn {
   background-color: #457b9d;
@@ -85,7 +72,7 @@ header .nav-link {
   margin-top: 150px;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1030px) {
   #carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
     height: 80vh;
   }
@@ -97,6 +84,15 @@ header .nav-link {
     font-weight: 300;
     margin-bottom: 80px;
     font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
