@@ -33,7 +33,14 @@ header .nav-link{
     box-shadow: 1px 5px 20px rgb(29, 53, 87); 
 }
 
+.study-card{
+    width: 18rem;
+    box-shadow: 1px 5px 20px rgb(29, 53, 87);
+}
 
+div .row {
+    padding-top: 1rem;
+}
 
  /* Parte do slide */
 

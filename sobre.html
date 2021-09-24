@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="styles.css">
 
 	<!-- links relacionados ao css. É utilizado o bootstrap, um arquivo próprio css e a fonte Roboto do google -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
 
     <title>Sobre Nós</title>
@@ -19,7 +19,7 @@
 		<div>
 			<nav class="navbar  navbar-expand-lg navbar-light" style="background-color: rgb(69, 123, 157)">
 				<a class="navbar-brand" href="#">
-					<img src="LOGOempresa.png" width="89" height="63" alt="Logo"> 
+					<img src="figures/LOGOempresa.png" width="89" height="63" alt="Logo"> 
 				StoreNotes	
 				</a>
 
@@ -50,6 +50,87 @@
 		</div>
 	</header>
 
+	<main>
+		<!-- Conteúdo relacionado ao botão de adicionar alguma disciplina-->
+		<div class="card">
+			<div class="card-header">
+			  	Registro de Disciplinas
+			</div>
+			<div class="card-body">
+			  	<h5 class="card-title">Adicionar Disciplinas</h5>
+			  	<p class="card-text">Clique no botão abaixo para adicionar novas disciplinas ao seu registro.</p>
+			  	<button class="btn btn-primary" type="submit" >Adicionar</button>
+			</div>
+		  </div>
+
+		<!-- Conteúdo relacionado aos cards das disciplinas-->
+		<div class="container margem1">
+			<div class="row">
+				<!-- Primeiro Card-->
+				<div class="col-md-1">
+					<div class="card study-card">
+						<img class="card-img-top" src="figures/study-card1.jpeg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Disciplina 1</h5>
+							  <p class="card-text">Álgebra Linear</p>
+							  <a href="#" class="btn btn-primary">Álgebra Linear</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Segundo Card-->
+				<div class="col-md-1 offset-3">
+					<div class="card study-card">
+						<img class="card-img-top" src="figures/study-card2.jpeg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Disciplina 2</h5>
+							  <p class="card-text">Cálculo II</p>
+							  <a href="#" class="btn btn-primary">Cálculo II</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Terceiro Card-->
+				<div class="col-md-1 offset-3">
+					<div class="card study-card">
+						<img class="card-img-top" src="figures/study-card3.jpeg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Disciplina 3</h5>
+							  <p class="card-text">Introdução à Economia</p>
+							  <a href="#" class="btn btn-primary">Introdução à Economia</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+				
+			<div class="row">	
+				<!-- Quarto Card-->
+				<div class="col-md-1">
+					<div class="card study-card">
+						<img class="card-img-top" src="figures/study-card4.jpeg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Disciplina 4</h5>
+							  <p class="card-text">Banco de Dados</p>
+							  <a href="#" class="btn btn-primary">Banco de Dados</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Quinto Card-->
+				<div class="col-md-1 offset-3">
+					<div class="card study-card">
+						<img class="card-img-top" src="figures/study-card5.jpeg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Disciplina 5</h5>
+							  <p class="card-text">Linguagens de Programação</p>
+							  <a href="#" class="btn btn-primary">Linguagens de Programação</a>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</main>
+
 	<!-- Configurações do rodapé. -->
 	<footer class="text-center text-white bg-dark mt-5">
 		<div class="container-fluid p-3 pb-0" style="background-color: rgba(0, 0, 0, 0.1);">
@@ -77,10 +158,6 @@
 	</footer>
 
 	<!-- Códigos javascript do bootstrap, que é útil para itens (como os slides) funcionarem -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>   
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>	
 </html>

@@ -1,0 +1,14 @@
+// Variáveis Globais;
+
+$font-stack: Roboto, sans-serif;
+$primary-color: rgb(241, 250, 238);
+
+
+body,
+html {
+    font: 100% $font-stack;
+}
+
+div .btn-card {
+    width: 19rem;
+}
