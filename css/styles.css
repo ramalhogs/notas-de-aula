@@ -39,7 +39,7 @@ header .nav-link {
 }
 
 /* Configurações do botão sem estar com mouse flutuando sobre */
-.main-btn {
+#inicialpage-buttom{
   background-color: #457b9d;
   color: #f1faee;
   -webkit-transition: .5s;
@@ -110,25 +110,20 @@ header .nav-link {
 
 /* Informações para telas menores (inclui tamanho da fonte do texto principal e dos cards */
 @media (max-width: 700px) {
-  .card-body .card-text h1 {
+  #inicialpage-sizeh1 {
     font-size: 28px;
   }
-  h1 .pb-1 {
-    font-size: 28px;
+  #inicialpage-sizeh5 {
+    font-size: 18px;
   }
-  h3 .pt-1 {
+  #inicialpage-sizeh3 {
     font-size: 16px;
   }
-
-  .card-body .card-text h4 {
-    font-size: 16px;
+  #inicialpage-sizeh5 {
+    font-size: 20px;
   }
-  
-  .card-body h5 {
-    font-size: 16px;
-  }
-  .card-body p {
-    font-size: 16px;
+  #inicialpage-cardp {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
