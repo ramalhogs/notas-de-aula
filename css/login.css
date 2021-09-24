@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#F1FAEE), to(#457B9D));
   background-image: linear-gradient(#F1FAEE, #457B9D);
+  font-family: "Roboto";
 }
 
 #btn-login {
