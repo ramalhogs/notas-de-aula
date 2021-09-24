@@ -41,9 +41,9 @@ header .nav-link {
   top: 25%;
 }
 
-/* Tamanho da altura do slide */
-#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
-  height: 80vh;
+/* Cor das barras da parte debaixo do slide */
+.carousel-indicators .active {
+  background-color: #a8dadc;
 }
 
 /* margem e fonte h2 no slide*/
@@ -59,23 +59,17 @@ header .nav-link {
   font-size: 25px;
 }
 
-/* Cor das barras da parte debaixo do slide */
-.carousel-indicators .active {
-  background-color: #a8dadc;
-}
-
 /* Configurações do botão sem estar com mouse flutuando sobre */
 .main-btn {
   background-color: #457b9d;
   color: #f1faee;
-  text-transform: uppercase;
+  -webkit-transition: .5s;
+  transition: .5s;
   width: 200px;
   height: 20px;
   padding: 15px 25px;
   border-radius: 40px;
   border: 4px solid transparent;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 /* configurações com mouse flutuando sobre o botão */
@@ -89,5 +83,20 @@ header .nav-link {
 /* Margem */
 .margem1 {
   margin-top: 150px;
+}
+
+@media (min-width: 1025px) {
+  #carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
+    height: 80vh;
+  }
+  #carouselExampleIndicators .carousel-caption h2 {
+    margin-bottom: 25px;
+    font-size: 60px;
+  }
+  #carouselExampleIndicators .carousel-caption p {
+    font-weight: 300;
+    margin-bottom: 80px;
+    font-size: 25px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
