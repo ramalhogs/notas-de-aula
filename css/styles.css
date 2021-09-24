@@ -101,20 +101,23 @@ header .nav-link {
 
 /* Informações para telas menores (inclui tamanho da fonte do texto principal e dos cards */
 @media (max-width: 700px) {
-  h1 {
+  .card-body .card-text h1 {
     font-size: 28px;
   }
-  h3 {
+  h1 .pb-1 {
+    font-size: 28px;
+  }
+  h3 .pt-1 {
     font-size: 16px;
   }
-  h4 {
+  .card-body .card-text h4 {
     font-size: 16px;
   }
   h5 {
     font-size: 16px;
   }
   p {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
