@@ -1,0 +1,11 @@
+$first-grad-color: #A8DADC;
+$second-grad-color:#1D3557;
+
+html{
+  min-height: 100%;
+}
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient($first-grad-color, $second-grad-color);
+}
