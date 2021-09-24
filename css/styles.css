@@ -60,9 +60,18 @@ header .nav-link {
 }
 
 /* Sombras nos cards */
-.infocard {
+.infocard1 {
+  background: #f1faee;
   -webkit-box-shadow: 1px 5px 20px #1d3557;
           box-shadow: 1px 5px 20px #1d3557;
+  color: black;
+}
+
+.infocard2 {
+  background: #f1faee;
+  -webkit-box-shadow: 1px 5px 20px #457b9d;
+          box-shadow: 1px 5px 20px #457b9d;
+  color: black;
 }
 
 /* Margem usada em itens */
@@ -110,9 +119,11 @@ header .nav-link {
   h3 .pt-1 {
     font-size: 16px;
   }
+
   .card-body .card-text h4 {
     font-size: 16px;
   }
+  
   .card-body h5 {
     font-size: 16px;
   }
