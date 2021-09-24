@@ -2,14 +2,12 @@ $first-color: #F1FAEE;
 $second-color: #A8DADC;
 $third-color: #457B9D;
 $fourth-color: #1D3557;
-html{
-  min-height: 100%;
-}
-body {
+
+#login-body {
   height: 100vh;
   background-repeat: no-repeat;
   background-image: linear-gradient($first-color, $third-color);
 }
-button{
+#btn-login{
   background-color: $fourth-color !important;
 }
