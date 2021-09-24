@@ -1,6 +1,11 @@
 /* ------- PÁGINA INICIAL ------- */
 
-@import './comandos';
+$escuro: rgb(29, 53, 87);
+$azulclaro: rgb(69, 123, 157);
+$claro: rgb(168, 218, 220);
+$branco: rgb(241, 250, 238);
+
+
 
 /* Alterando a fonte */
 body,
@@ -40,64 +45,4 @@ html{
     margin-top: 150px;
  }
 
-
-/* Media Query utilizado para responsividade.*/
-
-/* Primeiro, informações dos slides para telas maiores */
-
- @media (min-width: 1030px){
-
-    #carouselExampleCaptions .carousel-inner, #carouselExampleIndicators .carousel-item { 
-      height: 80vh; 
-    }
-    
-    #carouselExampleCaptions .carousel-caption h2{
-      margin-bottom:25px; 
-      font-size: 60px;
-    }
-    
-    
-    #carouselExampleCaptions .carousel-caption p{
-      font-weight: 300;
-      margin-bottom:80px;
-      font-size: 25px;
-    }
-    }
-
-/* Agora, informações dos slides para telas médias */
-
-@media (min-width: 701px) and (max-width: 1029px) {
-
-  #carouselExampleCaptions .carousel-caption h2 {
-    margin-bottom: 5px;
-    font-size: 50px;
-  }
-  #carouselExampleCaptions .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 20px;
-  }
-}
-
-/* Informações para telas menores (inclui tamanho da fonte do texto principal e dos cards */
-
-@media (max-width: 700px) {
-    h1 {
-      font-size: 28px;
-    }
-    h3 {
-      font-size: 16px;
-    }
-
-    h4{
-        font-size:16px;
-    }
-    
-    h5{
-        font-size: 16px;
-    }
-
-    p{
-        font-size: 13px;
-    }
-  }
-
+@import'./mediaquery';
