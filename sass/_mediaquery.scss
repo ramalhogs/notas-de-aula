@@ -39,22 +39,22 @@
 /* Informações para telas menores (inclui tamanho da fonte do texto principal e dos cards */
 
 @media (max-width: 700px) {
-    #inicialpage-sizeh1{
+    .inicialpage-sizeh1{
       font-size: 28px;
      }
 
-    #inicialpage-sizeh5{
+    .inicialpage-sizeh5{
       font-size:18px;
     }
 
-    #inicialpage-sizeh3 {
+    .inicialpage-sizeh3 {
         font-size: 16px;
       }
 
-    #inicialpage-sizeh5 {
+    .inicialpage-sizeh5 {
         font-size: 20px;
       }
-    #inicialpage-cardp {
+    .inicialpage-cardp {
         font-size: 15px;
       }
     }
