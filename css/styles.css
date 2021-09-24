@@ -113,10 +113,10 @@ header .nav-link {
   .card-body .card-text h4 {
     font-size: 16px;
   }
-  h5 {
+  .card-body h5 {
     font-size: 16px;
   }
-  p {
+  .card-body p {
     font-size: 16px;
   }
 }
