@@ -1,12 +1,9 @@
 @charset "UTF-8";
+/* ------- PÁGINA INICIAL ------- */
 /* Alterando a fonte */
 body,
 html {
   font-family: 'Roboto', sans-serif;
-}
-
-#header .navbar-collapse {
-  width: auto;
 }
 
 #imgfundo {
@@ -30,12 +27,7 @@ header .nav-link {
   border-bottom: solid 4px transparent;
 }
 
-/* Configurações dos cards */
-.infocard {
-  -webkit-box-shadow: 1px 5px 20px #1d3557;
-          box-shadow: 1px 5px 20px #1d3557;
-}
-
+/* Configurações gerais dos slides */
 /* Parte do slide */
 #carouselExampleIndicators .carousel-caption {
   top: 25%;
@@ -67,11 +59,19 @@ header .nav-link {
   border-color: #1d3557;
 }
 
-/* Margem */
+/* Sombras nos cards */
+.infocard {
+  -webkit-box-shadow: 1px 5px 20px #1d3557;
+          box-shadow: 1px 5px 20px #1d3557;
+}
+
+/* Margem usada em itens */
 .margem1 {
   margin-top: 150px;
 }
 
+/* Media Query utilizado para responsividade.*/
+/* Primeiro, informações dos slides para telas maiores */
 @media (min-width: 1030px) {
   #carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
     height: 80vh;
