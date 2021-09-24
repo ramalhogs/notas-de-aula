@@ -1,3 +1,5 @@
+/* ------- PÁGINA INICIAL ------- */
+
 @import './comandos';
 
 /* Alterando a fonte */
@@ -6,9 +8,6 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-#header .navbar-collapse{
-    width: auto;
-}
 
 #imgfundo{
     background-color: $azulclaro;
@@ -22,22 +21,29 @@ html{
 
 @import './cabecalho';
 
-/* Configurações dos cards */
 
-.infocard {
-    box-shadow: 1px 5px 20px $escuro; 
-}
-
+/* Configurações gerais dos slides */
 
 @import './slides';
  
 
- /* Margem */
+/* Sombras nos cards */
+
+.infocard {
+  box-shadow: 1px 5px 20px $escuro; 
+}
+
+
+ /* Margem usada em itens */
 
  .margem1{
     margin-top: 150px;
  }
 
+
+/* Media Query utilizado para responsividade.*/
+
+/* Primeiro, informações dos slides para telas maiores */
 
  @media (min-width: 1030px){
 
