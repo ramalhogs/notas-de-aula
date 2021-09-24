@@ -4,12 +4,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="../sass/main.css">
 
 	<!-- links relacionados ao css. É utilizado o bootstrap, um arquivo próprio css e a fonte Roboto do google -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../sass/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+	<!-- ÍCONE FAVICON-->
+    <link rel="icon" type="imagem/png" href="../images/favicon-32x32.png" />
 
     <title>Sobre Nós</title>
 </head>
@@ -17,23 +20,20 @@
 	<header>
 		<!-- Configurações do cabeçário. É colocado a logo e opções que redirecionam a outras páginas tambem. Além disso, há a configuração do botão para o cabeçário ser responsivo -->
 		<div>
-			<nav class="navbar  navbar-expand-lg navbar-light" style="background-color: rgb(69, 123, 157)">
+			<nav class="navbar navbar-expand-lg navbar-light">
 				<a class="navbar-brand" href="#">
-					<img src="figures/LOGOempresa.png" width="89" height="63" alt="Logo"> 
+					<img src="../images/LOGOempresa.png" id="logo" alt="Logo"> 
 				StoreNotes	
 				</a>
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-					<span class="navbar-toggler-icon">
-							
-					</span>
-						
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNav">
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item active">
-							<a class="nav-link " href="#">Home <span class="sr-only">(Página atual)</span></a>
+							<a class="nav-link " href="#">Home <span class="sr-only"></span></a>
 						</li>
 
 						<li class="nav-item active">
@@ -69,7 +69,7 @@
 				<!-- Primeiro Card-->
 				<div class="col-md-1">
 					<div class="card study-card">
-						<img class="card-img-top" src="figures/study-card1.jpeg" alt="Card image cap">
+						<img class="img-fluid card-img-top" src="../images/study-card1.jpeg" alt="Disciplina 1">
 						<div class="card-body">
 							<h5 class="card-title">Disciplina 1</h5>
 							  <p class="card-text">Álgebra Linear</p>
@@ -81,7 +81,7 @@
 				<!-- Segundo Card-->
 				<div class="col-md-1 offset-3">
 					<div class="card study-card">
-						<img class="card-img-top" src="figures/study-card2.jpeg" alt="Card image cap">
+						<img class="img-fluid card-img-top" src="../images/study-card2.jpeg" alt="Disciplina 2">
 						<div class="card-body">
 							<h5 class="card-title">Disciplina 2</h5>
 							  <p class="card-text">Cálculo II</p>
@@ -93,7 +93,7 @@
 				<!-- Terceiro Card-->
 				<div class="col-md-1 offset-3">
 					<div class="card study-card">
-						<img class="card-img-top" src="figures/study-card3.jpeg" alt="Card image cap">
+						<img class="img-fluid card-img-top" src="../images/study-card3.jpeg" alt="Disciplina 3">
 						<div class="card-body">
 							<h5 class="card-title">Disciplina 3</h5>
 							  <p class="card-text">Introdução à Economia</p>
@@ -107,7 +107,7 @@
 				<!-- Quarto Card-->
 				<div class="col-md-1">
 					<div class="card study-card">
-						<img class="card-img-top" src="figures/study-card4.jpeg" alt="Card image cap">
+						<img class="img-fluid card-img-top" src="../images/study-card4.jpeg" alt="Disciplina 4">
 						<div class="card-body">
 							<h5 class="card-title">Disciplina 4</h5>
 							  <p class="card-text">Banco de Dados</p>
@@ -119,7 +119,7 @@
 				<!-- Quinto Card-->
 				<div class="col-md-1 offset-3">
 					<div class="card study-card">
-						<img class="card-img-top" src="figures/study-card5.jpeg" alt="Card image cap">
+						<img class="img-fluid card-img-top" src="../images/study-card5.jpeg" alt="Disciplina 5">
 						<div class="card-body">
 							<h5 class="card-title">Disciplina 5</h5>
 							  <p class="card-text">Linguagens de Programação</p>
@@ -132,8 +132,8 @@
 	</main>
 
 	<!-- Configurações do rodapé. -->
-	<footer class="text-center text-white bg-dark mt-5">
-		<div class="container-fluid p-3 pb-0" style="background-color: rgba(0, 0, 0, 0.1);">
+	<footer class="text-center text-white mt-5">
+		<div class="container-fluid p-3 pb-0">
 			<p class=" align-items-center">
 				<span class="me-3">
 					Tem alguma dúvida ou sugestão?
@@ -147,7 +147,7 @@
 			</p>
 		</div>
 
-		<div class="text-center  p-3" style="background-color: rgba(0, 0, 0, 0.3);">
+		<div class="text-center  p-3">
 			<a class="text-white" href="#">
 				©️ 2021 StoreNotes
 			</a>
@@ -158,6 +158,6 @@
 	</footer>
 
 	<!-- Códigos javascript do bootstrap, que é útil para itens (como os slides) funcionarem -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	
 </body>	
 </html>
