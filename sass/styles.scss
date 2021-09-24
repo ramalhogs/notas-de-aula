@@ -34,10 +34,19 @@ html{
 
 /* Sombras nos cards */
 
-.infocard {
-  box-shadow: 1px 5px 20px $escuro; 
+@mixin boxcor($boxcor: $escuro) {
+  background: $branco;
+  box-shadow: 1px 5px 20px rgba($boxcor, 1);
+  color: rgb(0,0,0);
 }
 
+.infocard1 {
+  @include boxcor;
+}
+
+.infocard2{
+  @include boxcor($boxcor: $azulclaro);
+}
 
  /* Margem usada em itens */
 
