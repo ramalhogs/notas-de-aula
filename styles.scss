@@ -47,34 +47,38 @@ html{
 
  @media (min-width: 1030px){
 
-    #carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item { 
+    #carouselExampleCaptions .carousel-inner, #carouselExampleIndicators .carousel-item { 
       height: 80vh; 
     }
     
-    #carouselExampleIndicators .carousel-caption h2{
+    #carouselExampleCaptions .carousel-caption h2{
       margin-bottom:25px; 
       font-size: 60px;
     }
     
     
-    #carouselExampleIndicators .carousel-caption p{
+    #carouselExampleCaptions .carousel-caption p{
       font-weight: 300;
       margin-bottom:80px;
       font-size: 25px;
     }
     }
 
+/* Agora, informações dos slides para telas médias */
+
 @media (min-width: 701px) and (max-width: 1029px) {
 
-  #carouselExampleIndicators .carousel-caption h2 {
+  #carouselExampleCaptions .carousel-caption h2 {
     margin-bottom: 5px;
     font-size: 50px;
   }
-  #carouselExampleIndicators .carousel-caption p {
+  #carouselExampleCaptions .carousel-caption p {
     margin-bottom: 20px;
     font-size: 20px;
   }
 }
+
+/* Informações para telas menores (inclui tamanho da fonte do texto principal e dos cards */
 
 @media (max-width: 700px) {
     h1 {
