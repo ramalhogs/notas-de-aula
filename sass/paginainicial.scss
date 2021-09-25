@@ -24,12 +24,12 @@ html{
 
 /* Cabeçalho */
 
-@import './cabecalho';
+@import './paginicialcabecalho';
 
 
 /* Configurações gerais dos slides */
 
-@import './slides';
+@import './paginicialslides';
  
 
 /* Sombras nos cards */
@@ -54,4 +54,4 @@ html{
     margin-top: 150px;
  }
 
-@import'./mediaquery';
+@import'./paginicialmediaquery';
