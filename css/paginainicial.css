@@ -27,6 +27,10 @@ header .nav-link {
   border-bottom: solid 4px transparent;
 }
 
+.headercolor {
+  background-color: #457b9d;
+}
+
 .nav-brand {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,6 +95,15 @@ header .nav-link {
   color: black;
 }
 
+/* background footer */
+.inicialpage-footerstyle1 {
+  background-color: #457b9d;
+}
+
+.inicialpage-footerstyle2 {
+  background-color: #1d3557;
+}
+
 /* Margem usada em itens */
 .inicialpage-margem {
   margin-top: 150px;
@@ -143,3 +156,4 @@ header .nav-link {
     font-size: 15px;
   }
 }
+/*# sourceMappingURL=paginainicial.css.map */
