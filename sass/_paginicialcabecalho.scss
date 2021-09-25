@@ -1,16 +1,16 @@
-#header .navbar-collapse{
+.inicialpage-navcollapse{
     width: auto;
     
 }
 
 header {
 
-    .nav-link:hover{
+    .inicialpage-link:hover{
      border-bottom: solid 4px $branco;
     }
 
     
-    .nav-link{
+    .inicialpage-link{
         border-bottom: solid 4px transparent;
     }
 }
