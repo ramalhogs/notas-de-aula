@@ -1,0 +1,27 @@
+#header .navbar-collapse{
+    width: auto;
+    
+}
+
+header {
+
+    .nav-link:hover{
+     border-bottom: solid 4px white;
+    }
+
+    
+    .nav-link{
+        border-bottom: solid 4px transparent;
+    }
+}
+
+.nav-brand {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-left: 5px;
+    align-items: center;
+}
+
+
