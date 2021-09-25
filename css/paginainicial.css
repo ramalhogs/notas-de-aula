@@ -27,6 +27,26 @@ header .nav-link {
   border-bottom: solid 4px transparent;
 }
 
+.headercolor {
+  background-color: #457b9d;
+}
+
+.nav-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding-left: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /* Configurações gerais dos slides */
 /* Parte do slide */
 #carouselExampleCaptions .carousel-caption {
@@ -73,6 +93,15 @@ header .nav-link {
   -webkit-box-shadow: 1px 5px 20px #457b9d;
           box-shadow: 1px 5px 20px #457b9d;
   color: black;
+}
+
+/* background footer */
+.inicialpage-footerstyle1 {
+  background-color: #457b9d;
+}
+
+.inicialpage-footerstyle2 {
+  background-color: #1d3557;
 }
 
 /* Margem usada em itens */
@@ -127,3 +156,4 @@ header .nav-link {
     font-size: 15px;
   }
 }
+/*# sourceMappingURL=paginainicial.css.map */
