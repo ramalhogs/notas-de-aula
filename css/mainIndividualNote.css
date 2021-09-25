@@ -80,6 +80,10 @@ header .nav-link {
   border-color: #457b9d;
 }
 
+#edit-button:hover {
+  background-color: #84cbcd;
+}
+
 #note-content {
   margin-top: 5px;
   background-color: #a8dadc;

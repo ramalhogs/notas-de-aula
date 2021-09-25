@@ -26,6 +26,9 @@ $note-content-color: #a8dadc;
     border-width: 5px;
     border-radius: 5px;
     border-color: $border-color;
+    &:hover {
+        background-color: darken($note-content-color, 10%);
+    }
 }
 
 #note-content {
