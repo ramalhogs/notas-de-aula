@@ -52,3 +52,7 @@ header .nav-link {
   bottom: 0;
   width: 100%;
 }
+
+#all-content {
+  padding-left: 100px;
+}
