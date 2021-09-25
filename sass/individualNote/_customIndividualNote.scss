@@ -12,7 +12,15 @@ $note-content-color: #a8dadc;
 }
 
 #edit-section {
-    background-color: red;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+#edit-button {
+    background-color: $note-content-color;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: $border-color;
 }
 
 #note-content {

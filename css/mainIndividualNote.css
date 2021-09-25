@@ -64,7 +64,15 @@ header .nav-link {
 }
 
 #edit-section {
-  background-color: red;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+#edit-button {
+  background-color: #a8dadc;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: #457b9d;
 }
 
 #note-content {
