@@ -4,6 +4,11 @@ $note-content-color: #a8dadc;
 #main-container {
     position: relative;
     min-height: 100vh;
+    background-color: lightblue;
+    background-image: url("../images/bgimage.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #all-content {
