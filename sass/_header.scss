@@ -1,16 +1,12 @@
-#header .navbar-collapse{
-    width: auto;
-    
-}
-
 header {
-
-    .nav-link:hover{
-     border-bottom: solid 4px white;
+    .navbar-collapse {
+        width: auto;
     }
 
-    
-    .nav-link{
+    .nav-link:hover {
+        border-bottom: solid 4px White;
+    }
+    .nav-link {
         border-bottom: solid 4px transparent;
     }
 }
@@ -23,5 +19,3 @@ header {
     padding-left: 5px;
     align-items: center;
 }
-
-

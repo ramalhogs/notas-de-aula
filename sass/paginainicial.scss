@@ -1,0 +1,57 @@
+/* ------- PÁGINA INICIAL ------- */
+
+$escuro: rgb(29, 53, 87);
+$azulclaro: rgb(69, 123, 157);
+$claro: rgb(168, 218, 220);
+$branco: rgb(241, 250, 238);
+
+
+
+/* Alterando a fonte */
+body,
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#inicialpage-imgfundo{
+    background-color: $azulclaro;
+    background-image: url("http://willerk.vteximg.com.br/arquivos/ids/188440/Papel-de-Parede-Disney-Fundo-do-mar-DI0957.jpg?v=637257672634830000");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Cabeçalho */
+
+@import './header';
+
+
+/* Configurações gerais dos slides */
+
+@import './paginicialslides';
+ 
+
+/* Sombras nos cards */
+
+@mixin boxcor($boxcor: $escuro) {
+  background: $branco;
+  box-shadow: 1px 5px 20px rgba($boxcor, 1);
+  color: rgb(0,0,0);
+}
+
+.inicialpage-infocard1 {
+  @include boxcor;
+}
+
+.inicialpage-infocard2{
+  @include boxcor($boxcor: $azulclaro);
+}
+
+ /* Margem usada em itens */
+
+ .inicialpage-margem{
+    margin-top: 150px;
+ }
+
+@import'./paginicialmediaquery';
