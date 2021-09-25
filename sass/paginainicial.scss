@@ -48,6 +48,15 @@ html{
   @include boxcor($boxcor: $azulclaro);
 }
 
+/* background footer */
+.inicialpage-footerstyle1{
+  background-color:rgb(69, 123, 157);
+}
+
+.inicialpage-footerstyle2{
+  background-color: rgb(29, 53, 87);
+}
+
  /* Margem usada em itens */
 
  .inicialpage-margem{
