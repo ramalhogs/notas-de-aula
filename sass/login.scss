@@ -4,6 +4,9 @@ $third-color: #457B9D;
 $fourth-color: #1D3557;
 $first-font: "Roboto";
 
+@import './header';
+
+
 #login-body {
   height: 100%;
   background-repeat: no-repeat;

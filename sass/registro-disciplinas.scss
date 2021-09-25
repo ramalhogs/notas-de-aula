@@ -24,18 +24,7 @@ $secundary-color: rgb(69, 123, 157);
     margin-left: 0px;
 }
 // Nesting
-header {
-    .navbar-collapse {
-        width: auto;
-    }
-
-    .nav-link:hover {
-        border-bottom: solid 4px White;
-    }
-    .nav-link {
-        border-bottom: solid 4px transparent;
-    }
-}
+@import './header';
 
 /*Configurações dos Cards*/
 div {
