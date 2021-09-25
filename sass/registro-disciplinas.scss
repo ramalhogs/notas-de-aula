@@ -1,0 +1,66 @@
+#bg-registro-disciplinas {
+    background-color: #457b9d;
+    background-image: url("../images/bgimage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+// Variáveis
+$primary-color: rgb(29, 53, 87);
+$secundary-color: rgb(69, 123, 157);
+
+/*Configurações do Cabeçalho*/
+#logo-registro-disciplinas {
+    height: 63px;
+    width: 89px;
+}
+
+.navbar {
+    background-color: $secundary-color;
+}
+
+.navbar-brand {
+    margin-left: 0px;
+}
+// Nesting
+header {
+    .navbar-collapse {
+        width: auto;
+    }
+
+    .nav-link:hover {
+        border-bottom: solid 4px White;
+    }
+    .nav-link {
+        border-bottom: solid 4px transparent;
+    }
+}
+
+/*Configurações dos Cards*/
+div {
+    .row {
+        padding-top: 1rem;
+    }
+
+    .study-card{
+        width: 18rem;
+    box-shadow: 1px 5px 20px $primary-color;
+    }
+}
+
+/*Configurações de Rodapé*/
+.container-fluid {
+    background-color: $secundary-color;
+}
+
+.text-center {
+    background-color: $primary-color;
+}
+
+// Módulos
+// Mixins
+// Extend/Inheritance
+// Operators
+
+
