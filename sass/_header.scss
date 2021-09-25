@@ -1,0 +1,25 @@
+header {
+    .navbar-collapse {
+        width: auto;
+    }
+
+    .nav-link:hover {
+        border-bottom: solid 4px White;
+    }
+    .nav-link {
+        border-bottom: solid 4px transparent;
+    }
+}
+
+.headercolor{
+    background-color: rgb(69, 123, 157);
+}
+
+.nav-brand {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-left: 5px;
+    align-items: center;
+}
