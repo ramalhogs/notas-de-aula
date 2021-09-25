@@ -1,19 +1,14 @@
 @charset "UTF-8";
-#imgfundo {
+#bg-registro-disciplinas {
   background-color: #457b9d;
   background-image: url("../images/bgimage.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-/*Alterando a fonte*/
-body,
-html {
   font-family: 'Roboto', sans-serif;
 }
 
 /*Configurações do Cabeçalho*/
-#logo {
+#logo-registro-disciplinas {
   height: 63px;
   width: 89px;
 }
