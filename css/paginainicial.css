@@ -27,6 +27,10 @@ header .inicialpage-link {
   border-bottom: solid 4px transparent;
 }
 
+.inicialpage-headerstyle {
+  background-color: #1d3557;
+}
+
 /* Configurações gerais dos slides */
 /* Parte do slide */
 #carouselExampleCaptions .carousel-caption {
