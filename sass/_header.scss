@@ -10,3 +10,12 @@ header {
         border-bottom: solid 4px transparent;
     }
 }
+
+.nav-brand {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-left: 5px;
+    align-items: center;
+}
