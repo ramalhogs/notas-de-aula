@@ -28,7 +28,7 @@ header .inicialpage-link {
 }
 
 .inicialpage-headerstyle {
-  background-color: #1d3557;
+  background-color: #457b9d;
 }
 
 /* Configurações gerais dos slides */
@@ -77,6 +77,15 @@ header .inicialpage-link {
   -webkit-box-shadow: 1px 5px 20px #457b9d;
           box-shadow: 1px 5px 20px #457b9d;
   color: black;
+}
+
+/* background footer */
+.inicialpage-footerstyle1 {
+  background-color: #457b9d;
+}
+
+.inicialpage-footerstyle2 {
+  background-color: #1d3557;
 }
 
 /* Margem usada em itens */
