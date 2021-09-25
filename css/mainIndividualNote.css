@@ -109,3 +109,22 @@ header .nav-link {
   margin-bottom: 40px;
   text-align: justify;
 }
+
+@media (max-width: 991px) {
+  #note-title {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    font-size: 0.9em;
+  }
+}
