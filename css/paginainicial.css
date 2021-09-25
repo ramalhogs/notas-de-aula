@@ -15,15 +15,15 @@ html {
 }
 
 /* Cabeçalho */
-.inicialpage-navcollapse {
+header .navbar-collapse {
   width: auto;
 }
 
-header .inicialpage-link:hover {
-  border-bottom: solid 4px #f1faee;
+header .nav-link:hover {
+  border-bottom: solid 4px White;
 }
 
-header .inicialpage-link {
+header .nav-link {
   border-bottom: solid 4px transparent;
 }
 
@@ -127,4 +127,3 @@ header .inicialpage-link {
     font-size: 15px;
   }
 }
-/*# sourceMappingURL=paginainicial.css.map */
