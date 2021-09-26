@@ -8,6 +8,19 @@
 }
 
 /*Configurações do Cabeçalho*/
+#logo-registro-disciplinas {
+  height: 63px;
+  width: 89px;
+}
+
+.navbar {
+  background-color: #457b9d;
+}
+
+.navbar-brand {
+  margin-left: 0px;
+}
+
 header .navbar-collapse {
   width: auto;
 }
@@ -52,11 +65,10 @@ div .study-card {
 }
 
 /*Configurações de Rodapé*/
-.footercolor1 {
+.container-fluid {
   background-color: #457b9d;
 }
 
-.footercolor2 {
+.text-center {
   background-color: #1d3557;
 }
-/*# sourceMappingURL=registro-disciplinas.css.map */
