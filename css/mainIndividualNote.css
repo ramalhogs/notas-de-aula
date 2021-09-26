@@ -48,13 +48,12 @@ header .nav-link {
   font-weight: bold;
 }
 
-#footer {
-  color: white;
-  font-weight: bold;
+.footercolor1 {
   background-color: #457b9d;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+}
+
+.footercolor2 {
+  background-color: #1d3557;
 }
 
 #main-container {
