@@ -3,28 +3,44 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-navcollapse {
-  width: auto;
-}
-
-nav-link:hover {
-  border-bottom: solid 4px #f1faee;
-}
-
-nav-link {
-  border-bottom: solid 4px transparent;
-}
-
-headerstyle {
-  background-color: #457b9d;
-}
-
 #aboutpage-fundo {
   background-color: #457b9d;
   background-image: url("http://willerk.vteximg.com.br/arquivos/ids/188440/Papel-de-Parede-Disney-Fundo-do-mar-DI0957.jpg?v=637257672634830000");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+header .navbar-collapse {
+  width: auto;
+}
+
+header .nav-link:hover {
+  border-bottom: solid 4px White;
+}
+
+header .nav-link {
+  border-bottom: solid 4px transparent;
+}
+
+.headercolor {
+  background-color: #457b9d;
+}
+
+.nav-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding-left: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .aboutpage-margem {
