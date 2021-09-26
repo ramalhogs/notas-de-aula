@@ -11,19 +11,6 @@ $primary-color: rgb(29, 53, 87);
 $secundary-color: rgb(69, 123, 157);
 
 /*Configurações do Cabeçalho*/
-#logo-registro-disciplinas {
-    height: 63px;
-    width: 89px;
-}
-
-.navbar {
-    background-color: $secundary-color;
-}
-
-.navbar-brand {
-    margin-left: 0px;
-}
-// Nesting
 @import './header';
 
 /*Configurações dos Cards*/
@@ -39,17 +26,6 @@ div {
 }
 
 /*Configurações de Rodapé*/
-.container-fluid {
-    background-color: $secundary-color;
-}
-
-.text-center {
-    background-color: $primary-color;
-}
-
-// Módulos
-// Mixins
-// Extend/Inheritance
-// Operators
+@import './footer';
 
 
