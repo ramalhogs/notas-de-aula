@@ -96,11 +96,11 @@ header .nav-link {
 }
 
 /* background footer */
-.inicialpage-footerstyle1 {
+.footercolor1 {
   background-color: #457b9d;
 }
 
-.inicialpage-footerstyle2 {
+.footercolor2 {
   background-color: #1d3557;
 }
 
@@ -156,3 +156,4 @@ header .nav-link {
     font-size: 15px;
   }
 }
+/*# sourceMappingURL=paginainicial.css.map */
