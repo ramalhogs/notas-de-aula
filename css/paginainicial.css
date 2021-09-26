@@ -8,7 +8,7 @@ html {
 
 #inicialpage-imgfundo {
   background-color: #457b9d;
-  background-image: url("http://willerk.vteximg.com.br/arquivos/ids/188440/Papel-de-Parede-Disney-Fundo-do-mar-DI0957.jpg?v=637257672634830000");
+  background-image: url("../images/bgimage.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,11 +96,11 @@ header .nav-link {
 }
 
 /* background footer */
-.inicialpage-footerstyle1 {
+.footercolor1 {
   background-color: #457b9d;
 }
 
-.inicialpage-footerstyle2 {
+.footercolor2 {
   background-color: #1d3557;
 }
 
