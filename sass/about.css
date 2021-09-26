@@ -1,24 +1,6 @@
-@charset "UTF-8";
-#bg-registro-disciplinas {
-  background-color: #457b9d;
-  background-image: url("../images/bgimage.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+body,
+html {
   font-family: 'Roboto', sans-serif;
-}
-
-/*Configurações do Cabeçalho*/
-#logo-registro-disciplinas {
-  height: 63px;
-  width: 89px;
-}
-
-.navbar {
-  background-color: #457b9d;
-}
-
-.navbar-brand {
-  margin-left: 0px;
 }
 
 header .navbar-collapse {
@@ -53,23 +35,43 @@ header .nav-link {
           align-items: center;
 }
 
-/*Configurações dos Cards*/
-div .row {
-  padding-top: 1rem;
+#aboutpage-fundo {
+  background-color: #457b9d;
+  background-image: url("http://willerk.vteximg.com.br/arquivos/ids/188440/Papel-de-Parede-Disney-Fundo-do-mar-DI0957.jpg?v=637257672634830000");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-div .study-card {
-  width: 18rem;
+.aboutpage-margem {
+  margin-top: 70px;
+}
+
+.aboutimgcards {
+  height: auto;
+  width: auto;
+  max-height: 300px;
+}
+
+.aboutpage-infocard1 {
+  background: #f1faee;
   -webkit-box-shadow: 1px 5px 20px #1d3557;
           box-shadow: 1px 5px 20px #1d3557;
+  color: black;
 }
 
-/*Configurações de Rodapé*/
-.footercolor1 {
+.aboutpage-infocard2 {
+  background: #f1faee;
+  -webkit-box-shadow: 1px 5px 20px #457b9d;
+          box-shadow: 1px 5px 20px #457b9d;
+  color: black;
+}
+
+.about-footerstyle1 {
   background-color: #457b9d;
 }
 
-.footercolor2 {
+.about-footerstyle2 {
   background-color: #1d3557;
 }
-/*# sourceMappingURL=registro-disciplinas.css.map */
+/*# sourceMappingURL=about.css.map */

@@ -8,19 +8,6 @@
 }
 
 /*Configurações do Cabeçalho*/
-#logo-registro-disciplinas {
-  height: 63px;
-  width: 89px;
-}
-
-.navbar {
-  background-color: #457b9d;
-}
-
-.navbar-brand {
-  margin-left: 0px;
-}
-
 header .navbar-collapse {
   width: auto;
 }
@@ -31,6 +18,10 @@ header .nav-link:hover {
 
 header .nav-link {
   border-bottom: solid 4px transparent;
+}
+
+.headercolor {
+  background-color: #457b9d;
 }
 
 .nav-brand {
@@ -61,10 +52,11 @@ div .study-card {
 }
 
 /*Configurações de Rodapé*/
-.container-fluid {
+.footercolor1 {
   background-color: #457b9d;
 }
 
-.text-center {
+.footercolor2 {
   background-color: #1d3557;
 }
+/*# sourceMappingURL=registro-disciplinas.css.map */
