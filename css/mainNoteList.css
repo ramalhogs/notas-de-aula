@@ -149,6 +149,10 @@ header .nav-link {
   border-bottom: solid 4px transparent;
 }
 
+.headercolor {
+  background-color: #457b9d;
+}
+
 .nav-brand {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,12 +210,16 @@ header .nav-link {
   }
   .col-title {
     border-width: 4px 4px 2px 4px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
   }
   .col-change {
     border-width: 2px 4px 2px 4px;
   }
   .col-creation {
     border-width: 2px 4px 4px 4px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
   }
 }
 
