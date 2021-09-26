@@ -3,19 +3,18 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-.aboutpage-navcollapse {
+navcollapse {
   width: auto;
 }
 
-.aboutpage-link:hover {
+nav-link:hover {
   border-bottom: solid 4px #f1faee;
 }
-
-.aboutpage-link {
+nav-link {
   border-bottom: solid 4px transparent;
 }
 
-.aboutpage-headerstyle {
+headerstyle {
   background-color: #457b9d;
 }
 
