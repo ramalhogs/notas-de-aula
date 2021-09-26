@@ -13,14 +13,6 @@
   width: 89px;
 }
 
-.navbar {
-  background-color: #457b9d;
-}
-
-.navbar-brand {
-  margin-left: 0px;
-}
-
 header .navbar-collapse {
   width: auto;
 }
@@ -65,10 +57,11 @@ div .study-card {
 }
 
 /*Configurações de Rodapé*/
-.container-fluid {
+.footercolor1 {
   background-color: #457b9d;
 }
 
-.text-center {
+.footercolor2 {
   background-color: #1d3557;
 }
+/*# sourceMappingURL=registro-disciplinas.css.map */
