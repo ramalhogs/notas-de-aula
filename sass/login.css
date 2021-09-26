@@ -1,0 +1,49 @@
+header .navbar-collapse {
+  width: auto;
+}
+
+header .nav-link:hover {
+  border-bottom: solid 4px White;
+}
+
+header .nav-link {
+  border-bottom: solid 4px transparent;
+}
+
+.headercolor {
+  background-color: #457b9d;
+}
+
+.nav-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding-left: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#login-body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F1FAEE), to(#457B9D));
+  background-image: linear-gradient(#F1FAEE, #457B9D);
+  font-family: "Roboto";
+}
+
+#btn-login {
+  background-color: #1D3557 !important;
+}
+
+#icon-login {
+  width: 25%;
+  height: 30%;
+}
+/*# sourceMappingURL=login.css.map */
