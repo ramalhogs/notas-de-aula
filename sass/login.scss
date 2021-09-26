@@ -6,7 +6,6 @@ $first-font: "Roboto";
 
 @import './header';
 
-
 #login-body {
   height: 100%;
   background-repeat: no-repeat;
@@ -20,3 +19,5 @@ $first-font: "Roboto";
   width: 25%;
   height: 30%;
 }
+
+@import './footer';
