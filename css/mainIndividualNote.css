@@ -40,6 +40,10 @@ header .nav-link {
   background-color: #1d3557;
 }
 
+body {
+  font-family: 'Roboto';
+}
+
 #main-container {
   position: relative;
   min-height: 100vh;

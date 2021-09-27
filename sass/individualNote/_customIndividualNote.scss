@@ -1,6 +1,9 @@
 $border-color: #457b9d;
 $note-content-color: #a8dadc;
 
+body {
+    font-family: 'Roboto';
+}
 #main-container {
     position: relative;
     min-height: 100vh;
