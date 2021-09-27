@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* ------- PÁGINA INICIAL ------- */
+@import url("bootstrap.min.css");
 /* Alterando a fonte */
 body,
 html {

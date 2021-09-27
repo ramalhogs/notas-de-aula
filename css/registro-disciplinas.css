@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("bootstrap.min.css");
 #bg-registro-disciplinas {
   background-color: #457b9d;
   background-image: url("../images/bgimage.jpeg");
