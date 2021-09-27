@@ -15,5 +15,10 @@ $first-font: "Roboto";
 #btn-login{
   background-color: $fourth-color !important;
 }
-
+@media (max-width: 650px) {
+  #icon-login {
+      width: 50%;
+      height: 60%;
+  }
+}
 @import './footer';
