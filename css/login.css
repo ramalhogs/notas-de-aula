@@ -1,4 +1,8 @@
+@charset "UTF-8";
+/*Import do bootstrap*/
 @import url("bootstrap.min.css");
+/*Definição de variáveis de cores e fonte*/
+/*Import dos estilos do header*/
 header .navbar-collapse {
   width: auto;
 }
@@ -15,6 +19,7 @@ header .nav-link {
   background-color: #457b9d;
 }
 
+/*Estilização do card de login*/
 #login-body {
   height: 100%;
   background-repeat: no-repeat;
@@ -27,6 +32,7 @@ header .nav-link {
   background-color: #1D3557 !important;
 }
 
+/*Media querie para ajuste das dimensões em dispositivos menores*/
 @media (max-width: 650px) {
   #icon-login {
     width: 50%;
@@ -34,6 +40,7 @@ header .nav-link {
   }
 }
 
+/*Import dos estilos do footer*/
 .footercolor1 {
   background-color: #457b9d;
 }
