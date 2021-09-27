@@ -1,13 +1,17 @@
+/*Import do bootstrap*/
 @import url('bootstrap.min.css');
 
+/*Definição de variáveis de cores e fonte*/
 $first-color: #F1FAEE;
 $second-color: #A8DADC;
 $third-color: #457B9D;
 $fourth-color: #1D3557;
 $first-font: "Roboto";
 
+/*Import dos estilos do header*/
 @import './header';
 
+/*Estilização do card de login*/
 #login-body {
   height: 100%;
   background-repeat: no-repeat;
@@ -17,10 +21,12 @@ $first-font: "Roboto";
 #btn-login{
   background-color: $fourth-color !important;
 }
+/*Media querie para ajuste das dimensões em dispositivos menores*/
 @media (max-width: 650px) {
   #icon-login {
       width: 50%;
       height: 60%;
   }
 }
+/*Import dos estilos do footer*/
 @import './footer';
