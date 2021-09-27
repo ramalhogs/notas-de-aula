@@ -26,6 +26,13 @@ header .nav-link {
   background-color: #1D3557 !important;
 }
 
+@media (max-width: 650px) {
+  #icon-login {
+    width: 50%;
+    height: 60%;
+  }
+}
+
 .footercolor1 {
   background-color: #457b9d;
 }
